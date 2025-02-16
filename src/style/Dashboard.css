@@ -1,0 +1,52 @@
+div.producto, div.valores {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: #333;
+}
+
+div.producto h1, div.valores h1 {
+    font-size: 1.8rem;
+    color: #4a7a57; 
+    margin-bottom: 0.5rem;
+}
+
+div.producto p, div.valores li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+
+div.valores ul {
+    padding: 0;
+}
+
+div.valores li {
+    padding: 0.5rem 0;
+    border-left: 4px solid #4a7a57;
+    padding-left: 1rem; 
+    margin-bottom: 0.5rem;
+}
+
+.Enlaces div .Bio{
+justify-content: center;
+    
+}
+
+@media (max-width: 768px) {
+    div.producto, div.valores {
+        padding: 1rem;
+    }
+    
+    div.producto h1, div.valores h1 {
+        font-size: 1.5rem;
+    }
+    
+    div.producto p, div.valores li {
+        font-size: 0.9rem;
+    }
+}
